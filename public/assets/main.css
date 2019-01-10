@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background-color: white;
+  font-family: 'Jua', sans-serif;
+}
+
+header {
+  position: relative;
+  height: 60px;
+  background-color: #2299ff;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  line-height: 60px;
+  text-align: center;
+}
+
+button::before {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Font Awesome\ 5 Free';
+  content: '\f2f9';
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 40px auto;
+}
+
+.doggeabi, .ukulele {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.user {
+  display: flex;
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.name {
+  width: 50%;
+}
+
+.current {
+  width: 30%;
+}
+
+.score {
+  width: 20%;
+}
+
+.total {
+  margin-top: auto;
+  padding-top: 30px;
+  border-top: 2px solid #f1f1f1;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+    margin: 40px 0;
+  }
+
+  .user {
+    font-size: 20px;
+  }
+}
