@@ -7,9 +7,8 @@ var chart = new Chart(ctx, {
     data: {
         labels: ["doggeabi", "ukulele"],
         datasets: [{
-            label: "My First dataset",
-            backgroundColor: '#2299ff',
-            borderColor: '#2299ff',
+            label: "Vanilla Codewars",
+            backgroundColor: ['green', 'brown'],
             data: [Number(doggeabiScore.innerText), Number(ukuleleScore.innerText)],
         }]
     },
@@ -24,7 +23,7 @@ var chart = new Chart(ctx, {
                 }
             }],
             xAxes: [{
-                barThickness : 60
+                barThickness : 50
             }],
         }
     }

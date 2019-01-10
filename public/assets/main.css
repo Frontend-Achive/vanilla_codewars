@@ -45,6 +45,10 @@ button:hover {
   cursor: pointer;
 }
 
+.home {
+  line-height: 60px;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
