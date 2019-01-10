@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  width: 100vw;
+  height: 100vh;
   background-color: white;
   font-family: 'Jua', sans-serif;
 }
@@ -10,7 +12,9 @@ header {
   background-color: #2299ff;
   font-size: 40px;
   color: white;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
@@ -44,23 +48,45 @@ button:hover {
 .container {
   display: flex;
   justify-content: space-around;
-  width: 60%;
+  align-items: flex-end;
+  width: 90%;
   margin: 40px auto;
+  padding: 0 20px;
+  height: 75%;
 }
 
 .doggeabi, .ukulele {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40%;
+  align-content: flex-end;
+  width: 25%;
+}
+
+.doggeabi-graph, .ukulele-graph {
+  width: 20%;  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.doggeabi-graph > div {
+  width: 50px;
+  height: 10px;
+  background-color: green;
+}
+
+.ukulele-graph > div {
+  width: 50px;
+  height: 50px;
+  background-color: green;
 }
 
 .user {
   display: flex;
   width: 100%;
-  margin: 20px 0;
-  padding: 10px 0;
-  font-size: 25px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .name {
@@ -76,9 +102,11 @@ button:hover {
 }
 
 .total {
-  margin-top: auto;
-  padding-top: 30px;
+  padding-top: 10px;
+  margin-top: 10px;
   border-top: 2px solid #f1f1f1;
+  color: rgba(0, 0, 0, 0.9);
+
 }
 
 @media screen and (max-width: 800px) {

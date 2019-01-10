@@ -32,6 +32,14 @@
       </div>
     </div>
 
+    <div class="doggeabi-graph">
+      <div style="height:<%= (doggeabiScore / (doggeabiScore + ukuleleScore)) * 100 %>%;"></div>
+    </div>
+
+    <div class="ukulele-graph">
+      <div style="height:<%= (ukuleleScore / (doggeabiScore + ukuleleScore)) * 100 %>% %>px;"></div>
+    </div>
+
     <div class="ukulele">
       <% for (let user in ukulele) { %>
         <div class="user">
