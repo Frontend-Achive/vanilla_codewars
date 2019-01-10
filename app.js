@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const app = express();
-const PORT = process.env.PORT;
+// const PORT = process.env.PORT;
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
@@ -35,8 +35,6 @@ function loadPage() {
         allAxios.push(userData);
       }
     }
-
-    ///sdfsdf
 
     Promise.all(allAxios).then(function(results) {
       var doggeabi = {};
@@ -74,6 +72,6 @@ app.get('/btn', function(req, res) {
   res.redirect('/');
 });
 
-app.listen(PORT, function() {
+app.listen(3000, function() {
   console.log('SERVER START!!!');
 });
