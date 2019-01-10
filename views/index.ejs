@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet"> -->
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="/assets/main.css">
@@ -26,10 +25,12 @@
         <div class="statusImg winner" id="doggeabi">
           <img src="https://postfiles.pstatic.net/MjAxOTAxMTFfODIg/MDAxNTQ3MTMzMzQ4NTUw.-Kw45C6GeNFCL6iF-FBB2WeA4hmwzUwuIzdUHF9Tt-Ig.iojHbtJgOeZdq8siggi5SbfSETwX9vl88pQDLyOtLoUg.PNG.choinashil/happyHD.png?type=w773" alt="">
         </div>
+        <div class="winnerBackground">GOOD!</div>
       <% } else { %>
         <div class="statusImg looser" id="doggeabiSizeUp">
           <img src="https://postfiles.pstatic.net/MjAxOTAxMTFfMTMw/MDAxNTQ3MTQxOTMxNjc4.PpmZp14dq7QicqLutCPtwk91_PhZxkzId_8uez4eulcg.vkATLyOfm10s1n-w_2zll8JQ1gdGaluSK5Lvrr1h2t8g.PNG.choinashil/sadHD.png?type=w773" alt="">
         </div>
+        <div class="looserBackground">;;;;;;;;;;;;;;</div>
       <% } %>
       <div class="usersWrapper">
       <div class="teamTitle">Doggeabi_team</div>
@@ -61,10 +62,12 @@
         <div class="statusImg winner" id="ukulele">
           <img src="https://postfiles.pstatic.net/MjAxOTAxMTFfNzAg/MDAxNTQ3MTQwOTcxNzA1.W9OEtX9SnpHKbbSAVNocGwgdPTPwI96etffMnomGr2Eg.zFs24r-lD5mQUXOZBve3uJnBd_ZrTe_f6XVFuWOZpRQg.PNG.choinashil/happyCH.png?type=w773" alt="">
         </div>
+        <div class="winnerBackground">GOOD!</div>
       <% } else { %>
         <div class="statusImg looser" id="ukulele">
           <img src="https://postfiles.pstatic.net/MjAxOTAxMTFfMzAg/MDAxNTQ3MTQwOTcxODc0.GTltcRQaM_pz9qx-VYPwSyZa7kOnurkR_Vrt59SLZtAg.gk_eI2j_f4y_PgRqCVfCuoRKJK2wcspTEHwoTjPgzDQg.PNG.choinashil/sadCH.png?type=w773" alt="">
         </div>
+        <div class="looserBackground">;;;;;;;;;;;;;;</div>
       <% } %>
       <div class="usersWrapper">
         <div class="teamTitle">Ukulele_team</div>
@@ -75,6 +78,7 @@
             <div class="score"><%= ukulele[user].honor - ukulele[user].currentScore %></div>
           </div>
         <% } %>
+          <div class="user" style="height:19px"></div>
       </div>
       <div class="user total">
         <div class="name">Total</div>
