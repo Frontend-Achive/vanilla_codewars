@@ -64,10 +64,10 @@ button:hover {
   flex-direction: column;
   align-items: center;
   align-content: flex-end;
-  width: 25%;
+  width: 20%;
 }
 
-.doggeabi-graph, .ukulele-graph {
+/* .doggeabi-graph, .ukulele-graph {
   width: 20%;  height: 90%;
   display: flex;
   justify-content: center;
@@ -84,7 +84,7 @@ button:hover {
   width: 50px;
   height: 50px;
   background-color: green;
-}
+} */
 
 .user {
   display: flex;
@@ -94,15 +94,17 @@ button:hover {
 }
 
 .name {
-  width: 50%;
+  width: 70%;
 }
 
 .current {
+  display: none;
   width: 30%;
 }
 
 .score {
-  width: 20%;
+  width: 30%;
+  text-align: end;
 }
 
 .total {
