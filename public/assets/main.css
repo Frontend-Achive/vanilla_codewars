@@ -18,6 +18,13 @@ header {
   justify-content: center;
 }
 
+.logoImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
 a {
   position: absolute;
   top: 22px;
@@ -140,7 +147,7 @@ button:hover {
 }
 
 .looser {
-  animation-duration: 0.1s;
+  animation-duration: 0.15s;
   animation-name: sadAction;
   animation-iteration-count: infinite;
   animation-direction: alternate;

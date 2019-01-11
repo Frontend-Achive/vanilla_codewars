@@ -8,14 +8,14 @@ app.use(express.static('public'));
 
 const userID = {
   ChanwheKim: { id: 'ChanwheKim', score: 940 , team: 'ukulele' },
-  sungsung: { id: 'sungsung', score: 1483, team: 'doggeabi' },
-  Song_Song: { id: 'Song_Song', score: 1107 , team: 'ukulele' },
-  raccoon_91: { id: 'raccoon_91', score: 1051, team: 'doggeabi' },
-  'JUNWOO45': { id: 'JUNWOO45', score: 786 , team: 'ukulele' },
-  '92.8m': { id: '92.8m', score: 782, team: 'doggeabi' },
-  ParkJongRyul: { id: 'ParkJongRyul', score: 489 , team: 'ukulele' },
-  hyerin: { id: 'hyerin', score: 437, team: 'doggeabi' },
-  beautifulife: { id: 'beautifulife', score: 363 , team: 'ukulele' },
+  sungsung: { id: 'sungsung', score: 1643, team: 'doggeabi' },
+  Song_Song: { id: 'Song_Song', score: 1110 , team: 'ukulele' },
+  raccoon_91: { id: 'raccoon_91', score: 1065, team: 'doggeabi' },
+  'JUNWOO45': { id: 'JUNWOO45', score: 801 , team: 'ukulele' },
+  '92.8m': { id: '92.8m', score: 790, team: 'doggeabi' },
+  ParkJongRyul: { id: 'ParkJongRyul', score: 497 , team: 'ukulele' },
+  hyerin: { id: 'hyerin', score: 445, team: 'doggeabi' },
+  beautifulife: { id: 'beautifulife', score: 365 , team: 'ukulele' },
   Dawoon: { id: 'Dawoon', score: 325, team: 'doggeabi' },
   choinashil: { id: 'choinashil', score: 252, team: 'doggeabi' }
 }
